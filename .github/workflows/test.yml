@@ -1,7 +1,6 @@
 name: build-test
 # matriz de triggers
 on: [push, pull_request]
-
 jobs:
   build:
     runs-on: ubuntu-latest
