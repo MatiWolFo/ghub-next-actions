@@ -6,7 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     # hace que corra en las versiones 16
-    strategy
+    strategy:
       matrix:
         node: ['16']
     steps:
